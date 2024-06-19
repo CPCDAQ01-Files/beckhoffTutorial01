@@ -1,4 +1,4 @@
-#Project Solution for how to get started with the CPCDAQ
+# Project Solution for how to get started with the CPCDAQ
 ## Author: Labib Kowsar
 
 This follow the "Setting up the CPCDAQ-01" guide. Feel free to clone this repository and follow along with guide!
