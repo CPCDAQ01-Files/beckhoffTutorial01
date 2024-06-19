@@ -3,14 +3,21 @@
   <POU Name="MAIN" Id="{5bb984b1-30f5-48aa-9dca-5dbeed0d3db1}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
-	
+	rPosSenDis_mm : REAL;
+	rPosSenDis_inch : REAL;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[]]></ST>
+      <ST><![CDATA[GVL.rCurrent_Input1_EU := GVL.nCurrent_Input1 * 16.0/(26300.0); //16 mA/(range of DAQ resolution)
+rPosSenDis_mm := (GVL.rCurrent_Input1_EU - 3.92) / 0.01260;//mm displacement
+rPosSenDis_inch := f_mmToInch(rPosSenDis_mm);
+	]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
+      <LineId Id="13" Count="0" />
+      <LineId Id="11" Count="0" />
+      <LineId Id="19" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>

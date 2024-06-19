@@ -3,6 +3,47 @@
   <GVL Name="GVL" Id="{a1f616f6-a156-4889-b818-94d662c16095}">
     <Declaration><![CDATA[{attribute 'qualified_only'}
 VAR_GLOBAL
+(* Digital Input variables for EL1809 *)
+bDigital_Input1 AT %I* : BOOL;
+bDigital_Input2 AT %I* : BOOL;
+bDigital_Input3 AT %I* : BOOL;
+bDigital_Input4 AT %I* : BOOL;
+bDigital_Input5 AT %I* : BOOL;
+bDigital_Input6 AT %I* : BOOL;
+bDigital_Input7 AT %I* : BOOL;
+bDigital_Input8 AT %I* : BOOL;
+bDigital_Input9 AT %I* : BOOL;
+bDigital_Input10 AT %I* : BOOL;
+bDigital_Input11 AT %I* : BOOL;
+bDigital_Input12 AT %I* : BOOL;
+bDigital_Input13 AT %I* : BOOL;
+bDigital_Input14 AT %I* : BOOL;
+bDigital_Input15 AT %I* : BOOL;
+bDigital_Input16 AT %I* : BOOL;
+
+(*4-20 mA Analog inputs for EL3114*)
+nCurrent_Input1 AT %I* : INT;
+nCurrent_Input2 AT %I* : INT;
+nCurrent_Input3 AT %I* : INT;
+nCurrent_Input4 AT %I* : INT;
+
+//Converted from DAQ resolution to engineering unit (mA)
+rCurrent_Input1_EU AT %I* : REAL;
+rCurrent_Input2_EU AT %I* : REAL;
+rCurrent_Input3_EU AT %I* : REAL;
+rCurrent_Input4_EU AT %I* : REAL;
+
+(*0-10V Analog Input for EL3104*)
+nVoltage_Input1 AT %I* : INT;
+nVoltage_Input2 AT %I* : INT;
+nVoltage_Input3 AT %I* : INT;
+nVoltage_Input4 AT %I* : INT;
+
+//Converted from DAQ resolution to engineering unit (V)
+rVoltage_Input1_EU AT %I* : REAL;
+rVoltage_Input2_EU AT %I* : REAL;
+rVoltage_Input3_EU AT %I* : REAL;
+rVoltage_Input4_EU AT %I* : REAL;
 END_VAR]]></Declaration>
   </GVL>
 </TcPlcObject>
