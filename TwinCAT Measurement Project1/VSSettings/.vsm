@@ -40,12 +40,12 @@
           <Children>
             <Node>
               <Title>Virtual Mappings</Title>
-              <Expanded>True</Expanded>
+              <Expanded>False</Expanded>
               <FileName></FileName>
               <Children>
                 <Node>
                   <Title>Virtual Input Source</Title>
-                  <Expanded>True</Expanded>
+                  <Expanded>False</Expanded>
                   <FileName></FileName>
                   <Children>
                     <Node>
@@ -60,7 +60,7 @@
             </Node>
             <Node>
               <Title>Sources</Title>
-              <Expanded>True</Expanded>
+              <Expanded>False</Expanded>
               <FileName></FileName>
               <Children>
                 <Node>
