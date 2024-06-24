@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Project Solution for how to get started with the CPCDAQ
 ## Author: Labib Kowsar
 
@@ -11,4 +11,3 @@ This follow the "Setting up the CPCDAQ-01" guide. Feel free to clone this reposi
 =======
 # beckhoffTutorial01
 CPCDAQ 4-20 device
->>>>>>> a97b34895fc913845af6dc2b5c9c1961a9c20f40
