@@ -568,19 +568,19 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">207</v>
+                      <v n="Value">190</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">404</v>
+                      <v n="Value">402</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
-                      <v n="Value">150</v>
+                      <v n="Value">223</v>
                     </o>
                     <o>
                       <v n="Id">2134141914L</v>
-                      <v n="Value">30</v>
+                      <v n="Value">66</v>
                     </o>
                     <o>
                       <v n="Id">3729828405L</v>
@@ -611,7 +611,7 @@
                     </o>
                     <o>
                       <v n="Id">390574330L</v>
-                      <v n="Value">"%.3f"</v>
+                      <v n="Value">"%.3f mA"</v>
                     </o>
                     <o>
                       <v n="Id">2597686782L</v>
@@ -623,7 +623,7 @@
                     </o>
                     <o>
                       <v n="Id">823443203L</v>
-                      <v n="Value">"558"</v>
+                      <v n="Value">"663"</v>
                     </o>
                   </l>
                 </o>
@@ -2800,12 +2800,12 @@
               <v>0</v>
               <o>
                 <v n="Width">876</v>
-                <v n="Height">434</v>
+                <v n="Height">468</v>
               </o>
               <v>1</v>
               <o>
                 <v n="Width">876</v>
-                <v n="Height">435</v>
+                <v n="Height">469</v>
               </o>
             </d2>
             <v n="Version">1</v>
