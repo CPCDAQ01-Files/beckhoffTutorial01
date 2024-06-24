@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="PressureTransducer_420" Id="{fe53163a-806e-4302-ae7e-94598b599446}">
+    <Declaration><![CDATA[TYPE PressureTransducer_420 :
+STRUCT
+	rCurrentReading_EU : REAL;
+	rDistance_mm : REAL;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

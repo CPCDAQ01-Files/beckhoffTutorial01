@@ -18,6 +18,25 @@
     <SortPriority>100</SortPriority>
     <Title>HMICtrlInfo_1425</Title>
   </HMICtrlInfo>
+  <HMICtrlInfo AssemblyName="TwinCAT.Analytics.CodeGenerator.HMI">
+    <Clsid>02040401-0000-0000-f000-000000000064</Clsid>
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <DisplayText>Integrator 1Ch</DisplayText>
+    <DockOnDesktop>false</DockOnDesktop>
+    <GenerateGVL>false</GenerateGVL>
+    <GlobalVariableType>InOutVariables</GlobalVariableType>
+    <Guid>1824dd2c-bc5b-4d11-8f92-e490914947d9</Guid>
+    <ModuleIdentification>00000000-0000-0000-0000-000000000000</ModuleIdentification>
+    <Name>HMICtrlInfo_963</Name>
+    <ReferencedModule>CTcAlyIntegrator_1Ch</ReferencedModule>
+    <SelectedMapping>
+      <CtrlAlgMapGuid>00000000-0000-0000-0000-000000000000</CtrlAlgMapGuid>
+      <AlgorithmGuid>00000000-0000-0000-0000-000000000000</AlgorithmGuid>
+    </SelectedMapping>
+    <SortPriority>100</SortPriority>
+    <Title>HMICtrlInfo_963</Title>
+  </HMICtrlInfo>
   <FunctionAppearance AssemblyName="TwinCAT.Analytics.Workbench">
     <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
     <CollapsedMembers>
@@ -49,6 +68,35 @@
     <SortPriority>356</SortPriority>
     <Title>FunctionAppearance_1426</Title>
   </FunctionAppearance>
+  <FunctionAppearance AssemblyName="TwinCAT.Analytics.Workbench">
+    <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
+    <CollapsedMembers>
+      <InVariable IncludeInReferencedScope="True">2147483648</InVariable>
+      <InVariable IncludeInReferencedScope="True">2147483664</InVariable>
+      <InVariable IncludeInReferencedScope="True">2147483665</InVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260864</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260872</OutVariable>
+    </CollapsedMembers>
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <Guid>6de73b5b-1625-41ce-bd30-0e46b57d75bc</Guid>
+    <IncludeInReferencedScope>true</IncludeInReferencedScope>
+    <IncludeInReport>true</IncludeInReport>
+    <Name>FunctionAppearance_964</Name>
+    <ParentNetworkEnabled>true</ParentNetworkEnabled>
+    <ReferencedModule>CTcAlyIntegrator_1Ch</ReferencedModule>
+    <RptDataKey />
+    <RptIncludeOptionalVariables>false</RptIncludeOptionalVariables>
+    <SelectedReportingMappingId>
+      <CtrlAlgMapGuid>997c5c25-9a39-45e4-aa05-100000001001</CtrlAlgMapGuid>
+      <AlgorithmGuid>35cfd307-6b82-4936-91e9-400000000001</AlgorithmGuid>
+    </SelectedReportingMappingId>
+    <SelectedScopeConfiguration>00000000-0000-0000-0000-000000000000</SelectedScopeConfiguration>
+    <SelfEnabled>true</SelfEnabled>
+    <ShowOptionalInputs>false</ShowOptionalInputs>
+    <SortPriority>484</SortPriority>
+    <Title>FunctionAppearance_964</Title>
+  </FunctionAppearance>
   <FunctionResultInfo AssemblyName="TwinCAT.Analytics.Workbench">
     <Comment />
     <CreateResult>false</CreateResult>
@@ -58,6 +106,17 @@
     <ReferencedModule>CTcAlyEdgeCounter_1Ch</ReferencedModule>
     <SortPriority>100</SortPriority>
     <Title>FunctionResultInfo_1427</Title>
+    <TriggerResult>false</TriggerResult>
+  </FunctionResultInfo>
+  <FunctionResultInfo AssemblyName="TwinCAT.Analytics.Workbench">
+    <Comment />
+    <CreateResult>false</CreateResult>
+    <DisplayColor>Black</DisplayColor>
+    <Guid>73955254-867c-443e-b740-ba0dc25a0a1d</Guid>
+    <Name>FunctionResultInfo_965</Name>
+    <ReferencedModule>CTcAlyIntegrator_1Ch</ReferencedModule>
+    <SortPriority>100</SortPriority>
+    <Title>FunctionResultInfo_965</Title>
     <TriggerResult>false</TriggerResult>
   </FunctionResultInfo>
   <InputSourceInfo AssemblyName="TwinCAT.Analytics.Workbench">
@@ -214,7 +273,7 @@
           <ArrayOfGuid>
             <guid>9d3f49ee-719a-4e2a-a2cc-8602ea50b26f</guid>
             <guid>8e230026-d558-496a-8703-1d1292546816</guid>
-            <guid>516d8c15-7769-414e-8702-69d5aabbfc61</guid>
+            <guid>2f116b0d-7f57-4d7c-bf85-44fdc5dabd01</guid>
           </ArrayOfGuid>
         </Value>
       </DictionaryItem>
@@ -296,6 +355,10 @@
                 <Key>9373b43a-d2fc-4bf1-b96e-336aee97a79a</Key>
                 <Value>GVL.rCurrent_Input1_EU</Value>
               </Pair>
+              <Pair>
+                <Key>e2fec85f-3e00-4979-8f93-7ce8d6104a51</Key>
+                <Value>MAIN.PT01.rCurrentReading_EU</Value>
+              </Pair>
             </Value>
           </Pair>
         </Configurations>
@@ -331,13 +394,7 @@
           </FunctionAppearance>
           <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
             <Comment />
-            <ConnectedVariablesIds>
-              <VariableID>
-                <FunctionID>16842768</FunctionID>
-                <InVariableGUID>00000000-0000-0000-0000-000000000000</InVariableGUID>
-                <InVariableID>2147483648</InVariableID>
-              </VariableID>
-            </ConnectedVariablesIds>
+            <ConnectedVariablesIds />
             <DisplayColor>Black</DisplayColor>
             <GenerateGVL>false</GenerateGVL>
             <Guid>9373b43a-d2fc-4bf1-b96e-336aee97a79a</Guid>
@@ -347,6 +404,30 @@
             <SourceId>GVL.rCurrent_Input1_EU</SourceId>
             <StaticValue></StaticValue>
             <Title>PT current input</Title>
+          </VirtualInput>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds>
+              <VariableID>
+                <FunctionID>16842768</FunctionID>
+                <InVariableGUID>00000000-0000-0000-0000-000000000000</InVariableGUID>
+                <InVariableID>2147483648</InVariableID>
+              </VariableID>
+              <VariableID>
+                <FunctionID>16842816</FunctionID>
+                <InVariableGUID>00000000-0000-0000-0000-000000000000</InVariableGUID>
+                <InVariableID>2147483648</InVariableID>
+              </VariableID>
+            </ConnectedVariablesIds>
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>e2fec85f-3e00-4979-8f93-7ce8d6104a51</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_1025</Name>
+            <SortPriority>2</SortPriority>
+            <SourceId>MAIN.PT01.rCurrentReading_EU</SourceId>
+            <StaticValue></StaticValue>
+            <Title>rCurrentReading_EU</Title>
           </VirtualInput>
         </SubMember>
         <Title>Virtual Input Source</Title>

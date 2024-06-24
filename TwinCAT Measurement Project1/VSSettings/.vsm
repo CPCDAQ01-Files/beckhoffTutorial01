@@ -25,6 +25,12 @@
               <FileName></FileName>
               <Children />
             </Node>
+            <Node>
+              <Title>Integrator 1Ch</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
           </Children>
         </Node>
         <Node>
@@ -35,7 +41,7 @@
         </Node>
         <Node>
           <Title>Inputs</Title>
-          <Expanded>False</Expanded>
+          <Expanded>True</Expanded>
           <FileName></FileName>
           <Children>
             <Node>
@@ -54,22 +60,34 @@
                       <FileName></FileName>
                       <Children />
                     </Node>
+                    <Node>
+                      <Title>rCurrentReading_EU</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
                   </Children>
                 </Node>
               </Children>
             </Node>
             <Node>
               <Title>Sources</Title>
-              <Expanded>False</Expanded>
+              <Expanded>True</Expanded>
               <FileName></FileName>
               <Children>
                 <Node>
                   <Title>5.141.19.14.1.1: 851 [10.00ms]</Title>
-                  <Expanded>False</Expanded>
+                  <Expanded>True</Expanded>
                   <FileName></FileName>
                   <Children>
                     <Node>
                       <Title>GVL.rCurrent_Input1_EU</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.PT01.rCurrentReading_EU</Title>
                       <Expanded>False</Expanded>
                       <FileName></FileName>
                       <Children />
@@ -95,7 +113,7 @@
       <Children>
         <Node>
           <Title>DataPool</Title>
-          <Expanded>False</Expanded>
+          <Expanded>True</Expanded>
           <FileName></FileName>
           <Children>
             <Node>
@@ -110,6 +128,18 @@
               <FileName></FileName>
               <Children />
             </Node>
+            <Node>
+              <Title>rCurrentReading_EU</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>Result @ Integrator 1Ch</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
           </Children>
         </Node>
         <Node>
@@ -119,17 +149,37 @@
           <Children>
             <Node>
               <Title>REAL32</Title>
-              <Expanded>False</Expanded>
+              <Expanded>True</Expanded>
               <FileName></FileName>
               <Children>
                 <Node>
-                  <Title>rCurrent_Input1_EU</Title>
+                  <Title>Edge @ Edge Counter 1Ch</Title>
                   <Expanded>False</Expanded>
                   <FileName></FileName>
                   <Children />
                 </Node>
                 <Node>
-                  <Title>Edge @ Edge Counter 1Ch</Title>
+                  <Title>rCurrentReading_EU</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Title>YT Chart</Title>
+          <Expanded>True</Expanded>
+          <FileName></FileName>
+          <Children>
+            <Node>
+              <Title>Axis Group</Title>
+              <Expanded>True</Expanded>
+              <FileName></FileName>
+              <Children>
+                <Node>
+                  <Title>Result @ Integrator 1Ch</Title>
                   <Expanded>False</Expanded>
                   <FileName></FileName>
                   <Children />

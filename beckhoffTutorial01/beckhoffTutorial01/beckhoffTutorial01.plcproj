@@ -18,6 +18,9 @@
     <LibraryReferences>{410be517-782f-4bee-ad35-fd3a9cfca047}</LibraryReferences>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DUTs\PressureTransducer_420.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="GlobalTextList.TcGTLO">
       <SubType>Code</SubType>
     </Compile>
@@ -32,6 +35,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POUs\MAIN.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\f_roundReal.TcPOU">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Visualization Manager.TcVMO">
@@ -105,6 +111,7 @@
     </PlaceholderReference>
     <PlaceholderReference Include="Tc3_Analytics">
       <DefaultResolution>Tc3_Analytics, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc3_Analytics</Namespace>
     </PlaceholderReference>
     <PlaceholderReference Include="Tc3_Module">
       <DefaultResolution>Tc3_Module, * (Beckhoff Automation GmbH)</DefaultResolution>

@@ -30,6 +30,7 @@
 			<Licenses>
 				<Target>
 					<ManualSelect>{BB40055B-8333-4223-90EA-7C4559DC7C69}</ManualSelect>
+					<ManualSelect>{88FA6DAB-09EF-464E-A413-EE4B97F3F185}</ManualSelect>
 				</Target>
 			</Licenses>
 			<Tasks>
@@ -40,7 +41,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{FEA19E83-EE19-419F-8702-400A0EA0CC0E}" Name="beckhoffTutorial01" PrjFilePath="beckhoffTutorial01\beckhoffTutorial01.plcproj" TmcFilePath="beckhoffTutorial01\beckhoffTutorial01.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="beckhoffTutorial01\beckhoffTutorial01.tmc" TmcHash="{EA6EEA07-DDB3-90BA-3782-2DF67A97ADB6}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="beckhoffTutorial01\beckhoffTutorial01.tmc" TmcHash="{BA1922C4-DA6A-BB2B-710B-278923981D63}">
 					<Name>beckhoffTutorial01 Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -326,7 +327,7 @@
 						<String></String>
 					</Value>
 				</ParameterValues>
-				<Stream Caller="#x03040010" Adi="#x03040010" Id="#x02040001" CntAds="#x00000020" CntFile="#x00000010" CntRing="#x00000002" SamplingDivider="1">
+				<Stream Caller="#x03040010" Adi="#x03040010" Id="#x02040001" CntAds="#x00000020" CntFile="#x00000010" CntRing="#x00000002" SamplingDivider="1" DeviceStream="true">
 					<Name>Device 1 (EtherCAT).Image</Name>
 					<DisplayName>DeviceStream1</DisplayName>
 					<FileDir>%TC_BOOTPRJPATH%</FileDir>
