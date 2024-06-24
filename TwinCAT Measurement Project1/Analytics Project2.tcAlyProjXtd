@@ -1,0 +1,598 @@
+﻿<AnalyticsProjectAdditionalElements>
+  <HMICtrlInfo AssemblyName="TwinCAT.Analytics.CodeGenerator.HMI">
+    <Clsid>02040101-0000-0000-f000-000000000064</Clsid>
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <DisplayText>Edge Counter 1Ch</DisplayText>
+    <DockOnDesktop>false</DockOnDesktop>
+    <GenerateGVL>false</GenerateGVL>
+    <GlobalVariableType>InOutVariables</GlobalVariableType>
+    <Guid>f1bfdece-f97c-4bbd-8aea-68dd2bd9d69b</Guid>
+    <ModuleIdentification>00000000-0000-0000-0000-000000000000</ModuleIdentification>
+    <Name>HMICtrlInfo_1409</Name>
+    <ReferencedModule>CTcAlyEdgeCounter_1Ch</ReferencedModule>
+    <SelectedMapping>
+      <CtrlAlgMapGuid>00000000-0000-0000-0000-000000000000</CtrlAlgMapGuid>
+      <AlgorithmGuid>00000000-0000-0000-0000-000000000000</AlgorithmGuid>
+    </SelectedMapping>
+    <SortPriority>100</SortPriority>
+    <Title>HMICtrlInfo_1409</Title>
+  </HMICtrlInfo>
+  <HMICtrlInfo AssemblyName="TwinCAT.Analytics.CodeGenerator.HMI">
+    <Clsid>02040401-0000-0000-f000-000000000064</Clsid>
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <DisplayText>Integrator 1Ch</DisplayText>
+    <DockOnDesktop>false</DockOnDesktop>
+    <GenerateGVL>false</GenerateGVL>
+    <GlobalVariableType>InOutVariables</GlobalVariableType>
+    <Guid>fa0a4d58-0d42-46db-8ac8-4463f490b320</Guid>
+    <ModuleIdentification>00000000-0000-0000-0000-000000000000</ModuleIdentification>
+    <Name>HMICtrlInfo_1634</Name>
+    <ReferencedModule>CTcAlyIntegrator_1Ch</ReferencedModule>
+    <SelectedMapping>
+      <CtrlAlgMapGuid>00000000-0000-0000-0000-000000000000</CtrlAlgMapGuid>
+      <AlgorithmGuid>00000000-0000-0000-0000-000000000000</AlgorithmGuid>
+    </SelectedMapping>
+    <SortPriority>100</SortPriority>
+    <Title>HMICtrlInfo_1634</Title>
+  </HMICtrlInfo>
+  <HMICtrlInfo AssemblyName="TwinCAT.Analytics.CodeGenerator.HMI">
+    <Clsid>02040101-0000-0000-f000-000000000064</Clsid>
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <DisplayText>Edge Counter 1Ch (1)</DisplayText>
+    <DockOnDesktop>false</DockOnDesktop>
+    <GenerateGVL>false</GenerateGVL>
+    <GlobalVariableType>InOutVariables</GlobalVariableType>
+    <Guid>a87996ad-c57d-48a0-8ebd-b25ffaef0543</Guid>
+    <ModuleIdentification>00000000-0000-0000-0000-000000000000</ModuleIdentification>
+    <Name>HMICtrlInfo_1837</Name>
+    <ReferencedModule>CTcAlyEdgeCounter_1Ch_Instance1</ReferencedModule>
+    <SelectedMapping>
+      <CtrlAlgMapGuid>00000000-0000-0000-0000-000000000000</CtrlAlgMapGuid>
+      <AlgorithmGuid>00000000-0000-0000-0000-000000000000</AlgorithmGuid>
+    </SelectedMapping>
+    <SortPriority>100</SortPriority>
+    <Title>HMICtrlInfo_1837</Title>
+  </HMICtrlInfo>
+  <FunctionAppearance AssemblyName="TwinCAT.Analytics.Workbench">
+    <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
+    <CollapsedMembers>
+      <InVariable IncludeInReferencedScope="True">2147483648</InVariable>
+      <InVariable IncludeInReferencedScope="True">2147483664</InVariable>
+      <InVariable IncludeInReferencedScope="True">2147483665</InVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260864</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260865</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260872</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260880</OutVariable>
+    </CollapsedMembers>
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <Guid>7abc52ff-c6cc-442e-946a-1e26bb33e3f4</Guid>
+    <IncludeInReferencedScope>true</IncludeInReferencedScope>
+    <IncludeInReport>true</IncludeInReport>
+    <Name>FunctionAppearance_1410</Name>
+    <ParentNetworkEnabled>true</ParentNetworkEnabled>
+    <ReferencedModule>CTcAlyEdgeCounter_1Ch</ReferencedModule>
+    <RptDataKey />
+    <RptIncludeOptionalVariables>false</RptIncludeOptionalVariables>
+    <SelectedReportingMappingId>
+      <CtrlAlgMapGuid>997c5c25-9a39-45e4-aa05-100000001001</CtrlAlgMapGuid>
+      <AlgorithmGuid>35cfd307-6b82-4936-91e9-10000000000c</AlgorithmGuid>
+    </SelectedReportingMappingId>
+    <SelectedScopeConfiguration>00000000-0000-0000-0000-000000000000</SelectedScopeConfiguration>
+    <SelfEnabled>true</SelfEnabled>
+    <ShowOptionalInputs>false</ShowOptionalInputs>
+    <SortPriority>128</SortPriority>
+    <Title>FunctionAppearance_1410</Title>
+  </FunctionAppearance>
+  <FunctionAppearance AssemblyName="TwinCAT.Analytics.Workbench">
+    <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
+    <CollapsedMembers>
+      <InVariable IncludeInReferencedScope="True">2147483648</InVariable>
+      <InVariable IncludeInReferencedScope="True">2147483664</InVariable>
+      <InVariable IncludeInReferencedScope="True">2147483665</InVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260864</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260872</OutVariable>
+    </CollapsedMembers>
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <Guid>a13ed3c1-e280-4988-a023-583fd7e68b94</Guid>
+    <IncludeInReferencedScope>true</IncludeInReferencedScope>
+    <IncludeInReport>true</IncludeInReport>
+    <Name>FunctionAppearance_1635</Name>
+    <ParentNetworkEnabled>true</ParentNetworkEnabled>
+    <ReferencedModule>CTcAlyIntegrator_1Ch</ReferencedModule>
+    <RptDataKey />
+    <RptIncludeOptionalVariables>false</RptIncludeOptionalVariables>
+    <SelectedReportingMappingId>
+      <CtrlAlgMapGuid>997c5c25-9a39-45e4-aa05-100000001001</CtrlAlgMapGuid>
+      <AlgorithmGuid>35cfd307-6b82-4936-91e9-400000000001</AlgorithmGuid>
+    </SelectedReportingMappingId>
+    <SelectedScopeConfiguration>00000000-0000-0000-0000-000000000000</SelectedScopeConfiguration>
+    <SelfEnabled>true</SelfEnabled>
+    <ShowOptionalInputs>false</ShowOptionalInputs>
+    <SortPriority>256</SortPriority>
+    <Title>FunctionAppearance_1635</Title>
+  </FunctionAppearance>
+  <FunctionAppearance AssemblyName="TwinCAT.Analytics.Workbench">
+    <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
+    <CollapsedMembers>
+      <InVariable IncludeInReferencedScope="True">2147483648</InVariable>
+      <InVariable IncludeInReferencedScope="True">2147483664</InVariable>
+      <InVariable IncludeInReferencedScope="True">2147483665</InVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260864</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260865</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260872</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260880</OutVariable>
+    </CollapsedMembers>
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <Guid>5531d227-980e-40ba-8742-ef6fd1434379</Guid>
+    <IncludeInReferencedScope>true</IncludeInReferencedScope>
+    <IncludeInReport>true</IncludeInReport>
+    <Name>FunctionAppearance_1838</Name>
+    <ParentNetworkEnabled>true</ParentNetworkEnabled>
+    <ReferencedModule>CTcAlyEdgeCounter_1Ch_Instance1</ReferencedModule>
+    <RptDataKey />
+    <RptIncludeOptionalVariables>false</RptIncludeOptionalVariables>
+    <SelectedReportingMappingId>
+      <CtrlAlgMapGuid>997c5c25-9a39-45e4-aa05-100000001001</CtrlAlgMapGuid>
+      <AlgorithmGuid>35cfd307-6b82-4936-91e9-10000000000c</AlgorithmGuid>
+    </SelectedReportingMappingId>
+    <SelectedScopeConfiguration>00000000-0000-0000-0000-000000000000</SelectedScopeConfiguration>
+    <SelfEnabled>true</SelfEnabled>
+    <ShowOptionalInputs>false</ShowOptionalInputs>
+    <SortPriority>384</SortPriority>
+    <Title>FunctionAppearance_1838</Title>
+  </FunctionAppearance>
+  <FunctionResultInfo AssemblyName="TwinCAT.Analytics.Workbench">
+    <Comment />
+    <CreateResult>false</CreateResult>
+    <DisplayColor>Black</DisplayColor>
+    <Guid>e8ba9806-2a1b-4a0a-be78-3bb1bed2ba39</Guid>
+    <Name>FunctionResultInfo_1411</Name>
+    <ReferencedModule>CTcAlyEdgeCounter_1Ch</ReferencedModule>
+    <SortPriority>100</SortPriority>
+    <Title>FunctionResultInfo_1411</Title>
+    <TriggerResult>false</TriggerResult>
+  </FunctionResultInfo>
+  <FunctionResultInfo AssemblyName="TwinCAT.Analytics.Workbench">
+    <Comment />
+    <CreateResult>false</CreateResult>
+    <DisplayColor>Black</DisplayColor>
+    <Guid>17ace891-42b3-4b5e-8925-50d90270504b</Guid>
+    <Name>FunctionResultInfo_1636</Name>
+    <ReferencedModule>CTcAlyIntegrator_1Ch</ReferencedModule>
+    <SortPriority>100</SortPriority>
+    <Title>FunctionResultInfo_1636</Title>
+    <TriggerResult>false</TriggerResult>
+  </FunctionResultInfo>
+  <FunctionResultInfo AssemblyName="TwinCAT.Analytics.Workbench">
+    <Comment />
+    <CreateResult>false</CreateResult>
+    <DisplayColor>Black</DisplayColor>
+    <Guid>236b82df-34c4-4c75-8273-348aaeda5550</Guid>
+    <Name>FunctionResultInfo_1839</Name>
+    <ReferencedModule>CTcAlyEdgeCounter_1Ch_Instance1</ReferencedModule>
+    <SortPriority>100</SortPriority>
+    <Title>FunctionResultInfo_1839</Title>
+    <TriggerResult>false</TriggerResult>
+  </FunctionResultInfo>
+  <InputSourceInfo AssemblyName="TwinCAT.Analytics.Workbench">
+    <ChartGuid>034d4f81-0dfe-4dfc-be2f-c8ce53542db3</ChartGuid>
+    <Comment />
+    <CycleTime>10000000</CycleTime>
+    <DisplayColor>Black</DisplayColor>
+    <Guid>b7a9b2e0-73d4-49b4-8d90-609ee73f69c3</Guid>
+    <HasCustomTitle>false</HasCustomTitle>
+    <Name>InputSourceInfo_1445</Name>
+    <ReferencedModule>5e853a7e-56b7-4d22-8cef-a14d1ee36f37</ReferencedModule>
+    <ReferencedTitle>5.141.19.14.1.1:851</ReferencedTitle>
+    <SortPriority>100</SortPriority>
+    <SourceInfo>&lt;TargetInfo TargetId="0"&gt;
+  &lt;AmsAddress&gt;
+    &lt;AmsNetId&gt;5.141.19.14.1.1&lt;/AmsNetId&gt;
+    &lt;Port&gt;851&lt;/Port&gt;
+  &lt;/AmsAddress&gt;
+  &lt;CycleTime Context="0"&gt;100000&lt;/CycleTime&gt;
+  &lt;CurrentContextMask&gt;0&lt;/CurrentContextMask&gt;
+&lt;/TargetInfo&gt;</SourceInfo>
+    <TimeOffset>0</TimeOffset>
+    <Title>5.141.19.14.1.1: 851 [10.00ms]</Title>
+  </InputSourceInfo>
+  <Network AssemblyName="TwinCAT.Analytics.Workbench">
+    <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
+    <Closed>false</Closed>
+    <ClosedTemplateGuid>00000000-0000-0000-0000-000000000000</ClosedTemplateGuid>
+    <ClosedTemplateName />
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <Guid>a409d634-0771-42f4-bb69-c7e0ea9a0cf3</Guid>
+    <ID>1</ID>
+    <Image16pxDataString />
+    <ImageDataString />
+    <IncludeInReferencedScope>true</IncludeInReferencedScope>
+    <IncludeInReport>false</IncludeInReport>
+    <IncludeSubMemberInReport>true</IncludeSubMemberInReport>
+    <Name>Network</Name>
+    <NetworkChartGuid>8a6efe22-5b08-4027-9c02-dc423403f1d4</NetworkChartGuid>
+    <ParentNetworkEnabled>true</ParentNetworkEnabled>
+    <PersistentResults>false</PersistentResults>
+    <RptDataKey>0 - Network</RptDataKey>
+    <RptIncludeOptionalVariables>false</RptIncludeOptionalVariables>
+    <SelectedReportingCtrlName>Reporting Table Default</SelectedReportingCtrlName>
+    <SelectedScopeConfiguration>00000000-0000-0000-0000-000000000000</SelectedScopeConfiguration>
+    <SelfEnabled>true</SelfEnabled>
+    <ShowOptional>false</ShowOptional>
+    <SortPriority>100</SortPriority>
+    <StreamResults>false</StreamResults>
+    <SubMember>
+      <HMICtrlInfo AssemblyName="TwinCAT.Analytics.CodeGenerator.HMI">
+        <Clsid>00000000-0000-0000-0000-000000000000</Clsid>
+        <Comment />
+        <DisplayColor>Black</DisplayColor>
+        <DisplayText>Network</DisplayText>
+        <DockOnDesktop>false</DockOnDesktop>
+        <GenerateGVL>false</GenerateGVL>
+        <GlobalVariableType>InOutVariables</GlobalVariableType>
+        <Guid>cb6030df-7a04-4f33-9e3f-328f9f3656d0</Guid>
+        <ModuleIdentification>a409d634-0771-42f4-bb69-c7e0ea9a0cf3</ModuleIdentification>
+        <Name>HMICtrlInfo_1382</Name>
+        <ReferencedModule />
+        <SelectedMapping>
+          <CtrlAlgMapGuid>00000000-0000-0000-0000-000000000000</CtrlAlgMapGuid>
+          <AlgorithmGuid>00000000-0000-0000-0000-000000000000</AlgorithmGuid>
+        </SelectedMapping>
+        <SortPriority>100</SortPriority>
+        <Title>HMICtrlInfo_1382</Title>
+      </HMICtrlInfo>
+    </SubMember>
+    <Title>Network_1381</Title>
+    <TriggerResults>false</TriggerResults>
+    <VisibleArrayChartGuid>00000000-0000-0000-0000-000000000000</VisibleArrayChartGuid>
+    <VisibleNetworkChartGuid>cb73de7f-8c10-4ecb-a2bc-94d3ced67903</VisibleNetworkChartGuid>
+  </Network>
+  <ProjectInfo AssemblyName="TwinCAT.Analytics.Workbench">
+    <AxisGenerationStyle>AxisPerDataType</AxisGenerationStyle>
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <Guid>277fb356-0079-4d26-8229-a1a8ac382a8c</Guid>
+    <GuidToElementIDReferences />
+    <Name>ProjectInfo_1076</Name>
+    <RefreshRefScopeMode>Automatic</RefreshRefScopeMode>
+    <ScopeAnalyticsReferences>
+      <DictionaryItem>
+        <Key>
+          <guid>7abc52ff-c6cc-442e-946a-1e26bb33e3f4</guid>
+        </Key>
+        <Value>
+          <ArrayOfGuid>
+            <guid>138a45f6-1727-4d70-8398-b4543bf203b0</guid>
+          </ArrayOfGuid>
+        </Value>
+      </DictionaryItem>
+      <DictionaryItem>
+        <Key>
+          <guid>a409d634-0771-42f4-bb69-c7e0ea9a0cf3</guid>
+        </Key>
+        <Value>
+          <ArrayOfGuid>
+            <guid>cb73de7f-8c10-4ecb-a2bc-94d3ced67903</guid>
+            <guid>3e776c8b-d7d2-428e-920e-fd59fa9b1079</guid>
+            <guid>29484788-a477-475d-b72a-e9ea43f6e780</guid>
+            <guid>c670412a-1ea0-4163-9760-8d1f6d5f4095</guid>
+          </ArrayOfGuid>
+        </Value>
+      </DictionaryItem>
+      <DictionaryItem>
+        <Key>
+          <guid>5531d227-980e-40ba-8742-ef6fd1434379</guid>
+        </Key>
+        <Value>
+          <ArrayOfGuid>
+            <guid>d6326a7e-6d2e-46f0-88e6-91ab0e189d21</guid>
+          </ArrayOfGuid>
+        </Value>
+      </DictionaryItem>
+    </ScopeAnalyticsReferences>
+    <ScopeGenerationType>ChartPerNetwork</ScopeGenerationType>
+    <ScopeProjectGuid>546bc8a1-e268-4ae6-99c9-23edf904f78b</ScopeProjectGuid>
+    <SortPriority>100</SortPriority>
+    <Title>ProjectInfo_1076</Title>
+    <UseScopeRecording>true</UseScopeRecording>
+  </ProjectInfo>
+  <VirtualMappings AssemblyName="TwinCAT.Analytics.Workbench">
+    <AutoGeneration>false</AutoGeneration>
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <Guid>f529f6e3-527b-4cba-9421-5e5e68caad2b</Guid>
+    <Name>VirtualMappings_1435</Name>
+    <SortPriority>100</SortPriority>
+    <SubMember>
+      <VirtualInputSource AssemblyName="TwinCAT.Analytics.Workbench">
+        <AutoGeneration>true</AutoGeneration>
+        <Comment />
+        <Configurations>
+          <Pair>
+            <Key>
+              <Name>Configuration</Name>
+              <Source>5e853a7e-56b7-4d22-8cef-a14d1ee36f37</Source>
+            </Key>
+            <Value>
+              <Pair>
+                <Key>e35a2747-460f-4de4-999a-632c049cd00e</Key>
+                <Value>GVL.rCurrent_Input1_EU</Value>
+              </Pair>
+              <Pair>
+                <Key>93c1b8e5-d25a-4b9b-8a8c-b7551e4b8c67</Key>
+                <Value>MAIN.rPosSenDis_mm</Value>
+              </Pair>
+            </Value>
+          </Pair>
+        </Configurations>
+        <CurrentConfig>Configuration</CurrentConfig>
+        <DisplayColor>Black</DisplayColor>
+        <Guid>4a0fe1cf-a7f4-42ac-8fe6-02627b7173f0</Guid>
+        <Name>VirtualInputSource_1449</Name>
+        <SortPriority>100</SortPriority>
+        <SourceGuid>5e853a7e-56b7-4d22-8cef-a14d1ee36f37</SourceGuid>
+        <SubMember>
+          <FunctionAppearance AssemblyName="TwinCAT.Analytics.Workbench">
+            <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
+            <CollapsedMembers />
+            <Comment />
+            <DisplayColor>Black</DisplayColor>
+            <Guid>618c3cb2-67fd-4154-9b7c-a776716125aa</Guid>
+            <IncludeInReferencedScope>true</IncludeInReferencedScope>
+            <IncludeInReport>true</IncludeInReport>
+            <Name>FunctionAppearance_1450</Name>
+            <ParentNetworkEnabled>true</ParentNetworkEnabled>
+            <ReferencedModule />
+            <RptDataKey />
+            <RptIncludeOptionalVariables>false</RptIncludeOptionalVariables>
+            <SelectedReportingMappingId>
+              <CtrlAlgMapGuid>00000000-0000-0000-0000-000000000000</CtrlAlgMapGuid>
+              <AlgorithmGuid>00000000-0000-0000-0000-000000000000</AlgorithmGuid>
+            </SelectedReportingMappingId>
+            <SelectedScopeConfiguration>00000000-0000-0000-0000-000000000000</SelectedScopeConfiguration>
+            <SelfEnabled>true</SelfEnabled>
+            <ShowOptionalInputs>false</ShowOptionalInputs>
+            <SortPriority>100</SortPriority>
+            <Title>FunctionAppearance_1450</Title>
+          </FunctionAppearance>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds>
+              <VariableID>
+                <FunctionID>16842768</FunctionID>
+                <InVariableGUID>00000000-0000-0000-0000-000000000000</InVariableGUID>
+                <InVariableID>2147483648</InVariableID>
+              </VariableID>
+              <VariableID>
+                <FunctionID>16842816</FunctionID>
+                <InVariableGUID>00000000-0000-0000-0000-000000000000</InVariableGUID>
+                <InVariableID>2147483648</InVariableID>
+              </VariableID>
+            </ConnectedVariablesIds>
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>e35a2747-460f-4de4-999a-632c049cd00e</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_1455</Name>
+            <SortPriority>1</SortPriority>
+            <SourceId>GVL.rCurrent_Input1_EU</SourceId>
+            <StaticValue></StaticValue>
+            <Title>rCurrent_Input1_EU</Title>
+          </VirtualInput>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds>
+              <VariableID>
+                <FunctionID>16842848</FunctionID>
+                <InVariableGUID>00000000-0000-0000-0000-000000000000</InVariableGUID>
+                <InVariableID>2147483648</InVariableID>
+              </VariableID>
+            </ConnectedVariablesIds>
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>93c1b8e5-d25a-4b9b-8a8c-b7551e4b8c67</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_1926</Name>
+            <SortPriority>2</SortPriority>
+            <SourceId>MAIN.rPosSenDis_mm</SourceId>
+            <StaticValue></StaticValue>
+            <Title>rPosSenDis_mm</Title>
+          </VirtualInput>
+        </SubMember>
+        <Title>Virtual Input Source</Title>
+      </VirtualInputSource>
+    </SubMember>
+    <Title>Virtual Mappings</Title>
+  </VirtualMappings>
+  <HMIDashboard AssemblyName="TwinCAT.Analytics.Workbench.HMI">
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <Guid>0922a1ac-f4ca-40df-bc65-beb221b14aab</Guid>
+    <Name>HMIDashboard_1077</Name>
+    <ParentEnabled>true</ParentEnabled>
+    <SelfEnabled>true</SelfEnabled>
+    <SortPriority>2147483647</SortPriority>
+    <SubMember>
+      <HMIDockContentMap AssemblyName="TwinCAT.Analytics.Workbench.HMI">
+        <Comment />
+        <DisplayColor>Black</DisplayColor>
+        <Guid>86387836-0aea-4ef6-97e6-7cdcd9f628e2</Guid>
+        <HMIPermissions>
+          <Comment />
+          <DisplayColor>Black</DisplayColor>
+          <Editors>
+            <HMIUserGroup>
+              <DefaultPermission>Editor</DefaultPermission>
+              <IsDefault>false</IsDefault>
+              <Name>Administrators</Name>
+              <RelatedGroups>
+                <HMIUserGroup>
+                  <DefaultPermission>Editor</DefaultPermission>
+                  <IsDefault>true</IsDefault>
+                  <Name>__SystemAdministrators</Name>
+                  <RelatedGroups />
+                </HMIUserGroup>
+              </RelatedGroups>
+            </HMIUserGroup>
+            <HMIUserGroup>
+              <DefaultPermission>Editor</DefaultPermission>
+              <IsDefault>false</IsDefault>
+              <Name>Users</Name>
+              <RelatedGroups>
+                <HMIUserGroup>
+                  <DefaultPermission>Editor</DefaultPermission>
+                  <IsDefault>true</IsDefault>
+                  <Name>__SystemUsers</Name>
+                  <RelatedGroups />
+                </HMIUserGroup>
+              </RelatedGroups>
+            </HMIUserGroup>
+          </Editors>
+          <Guid>b20da05c-845c-4c6b-a9d7-ec8128cb2947</Guid>
+          <Name>HMIPermissions_1079</Name>
+          <NoAccess />
+          <SortPriority>100</SortPriority>
+          <Title>HMIPermissions_1079</Title>
+          <Viewers>
+            <HMIUserGroup>
+              <DefaultPermission>Viewer</DefaultPermission>
+              <IsDefault>false</IsDefault>
+              <Name>Guests</Name>
+              <RelatedGroups>
+                <HMIUserGroup>
+                  <DefaultPermission>Viewer</DefaultPermission>
+                  <IsDefault>true</IsDefault>
+                  <Name>__SystemGuests</Name>
+                  <RelatedGroups />
+                </HMIUserGroup>
+              </RelatedGroups>
+            </HMIUserGroup>
+          </Viewers>
+        </HMIPermissions>
+        <ID>10001</ID>
+        <Name>HMIDockContentMap_1078</Name>
+        <NetworkID>-1</NetworkID>
+        <ParentEnabled>true</ParentEnabled>
+        <SelfEnabled>true</SelfEnabled>
+        <SortPriority>0</SortPriority>
+        <SubMember />
+        <Title>Desktop Dock</Title>
+      </HMIDockContentMap>
+      <HMIContentMap AssemblyName="TwinCAT.Analytics.Workbench.HMI">
+        <Comment />
+        <DisplayColor>Black</DisplayColor>
+        <Guid>07756bde-a3e2-4523-8b85-255cef012fd8</Guid>
+        <HMIPermissions>
+          <Comment />
+          <DisplayColor>Black</DisplayColor>
+          <Editors>
+            <HMIUserGroup>
+              <DefaultPermission>Editor</DefaultPermission>
+              <IsDefault>false</IsDefault>
+              <Name>Administrators</Name>
+              <RelatedGroups>
+                <HMIUserGroup>
+                  <DefaultPermission>Editor</DefaultPermission>
+                  <IsDefault>true</IsDefault>
+                  <Name>__SystemAdministrators</Name>
+                  <RelatedGroups />
+                </HMIUserGroup>
+              </RelatedGroups>
+            </HMIUserGroup>
+            <HMIUserGroup>
+              <DefaultPermission>Editor</DefaultPermission>
+              <IsDefault>false</IsDefault>
+              <Name>Users</Name>
+              <RelatedGroups>
+                <HMIUserGroup>
+                  <DefaultPermission>Editor</DefaultPermission>
+                  <IsDefault>true</IsDefault>
+                  <Name>__SystemUsers</Name>
+                  <RelatedGroups />
+                </HMIUserGroup>
+              </RelatedGroups>
+            </HMIUserGroup>
+          </Editors>
+          <Guid>42682cac-b813-47c3-af57-fc6fd741fdb1</Guid>
+          <Name>HMIPermissions_1384</Name>
+          <NoAccess />
+          <SortPriority>100</SortPriority>
+          <Title>HMIPermissions_1384</Title>
+          <Viewers>
+            <HMIUserGroup>
+              <DefaultPermission>Viewer</DefaultPermission>
+              <IsDefault>false</IsDefault>
+              <Name>Guests</Name>
+              <RelatedGroups>
+                <HMIUserGroup>
+                  <DefaultPermission>Viewer</DefaultPermission>
+                  <IsDefault>true</IsDefault>
+                  <Name>__SystemGuests</Name>
+                  <RelatedGroups />
+                </HMIUserGroup>
+              </RelatedGroups>
+            </HMIUserGroup>
+          </Viewers>
+        </HMIPermissions>
+        <ID>1</ID>
+        <Name>HMIContentMap_1383</Name>
+        <NetworkID>1</NetworkID>
+        <ParentEnabled>true</ParentEnabled>
+        <SelfEnabled>true</SelfEnabled>
+        <SortPriority>100</SortPriority>
+        <SubMember />
+        <Title>Network</Title>
+      </HMIContentMap>
+    </SubMember>
+    <Title>Dashboard</Title>
+    <UserGroupsInternal>
+      <HMIUserGroup>
+        <DefaultPermission>Editor</DefaultPermission>
+        <IsDefault>false</IsDefault>
+        <Name>Administrators</Name>
+        <RelatedGroups>
+          <HMIUserGroup>
+            <DefaultPermission>Editor</DefaultPermission>
+            <IsDefault>true</IsDefault>
+            <Name>__SystemAdministrators</Name>
+            <RelatedGroups />
+          </HMIUserGroup>
+        </RelatedGroups>
+      </HMIUserGroup>
+      <HMIUserGroup>
+        <DefaultPermission>Editor</DefaultPermission>
+        <IsDefault>false</IsDefault>
+        <Name>Users</Name>
+        <RelatedGroups>
+          <HMIUserGroup>
+            <DefaultPermission>Editor</DefaultPermission>
+            <IsDefault>true</IsDefault>
+            <Name>__SystemUsers</Name>
+            <RelatedGroups />
+          </HMIUserGroup>
+        </RelatedGroups>
+      </HMIUserGroup>
+      <HMIUserGroup>
+        <DefaultPermission>Viewer</DefaultPermission>
+        <IsDefault>false</IsDefault>
+        <Name>Guests</Name>
+        <RelatedGroups>
+          <HMIUserGroup>
+            <DefaultPermission>Viewer</DefaultPermission>
+            <IsDefault>true</IsDefault>
+            <Name>__SystemGuests</Name>
+            <RelatedGroups />
+          </HMIUserGroup>
+        </RelatedGroups>
+      </HMIUserGroup>
+    </UserGroupsInternal>
+    <Users />
+  </HMIDashboard>
+</AnalyticsProjectAdditionalElements>

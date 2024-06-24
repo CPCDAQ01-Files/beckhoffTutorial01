@@ -1,0 +1,32 @@
+﻿<AnalyticsProjectResult StartTime="2024-06-21 02:34:30.414:000 PM" StartTimeValue="133634792704140000" EndTime="2024-06-21 02:40:21.304:000 PM" EndTimeValue="133634796213040000">
+  <Functions>
+    <Function Title="Edge Counter 1Ch" Name="CTcAlyEdgeCounter_1Ch">
+      <InputLinks>
+        <InputLink InputTitle="Input">GVL.rCurrent_Input1_EU @ 5.141.19.14.1.1: 851 [10.00ms]</InputLink>
+      </InputLinks>
+      <Parameters>
+        <Parameter Title="Persistent Results">FALSE</Parameter>
+        <Parameter Title="Operator Edge">GreaterThanOrEqualTo</Parameter>
+        <Parameter Title="Threshold Edge">10</Parameter>
+        <Parameter Title="Tolerance">0</Parameter>
+        <Parameter Title="Negate Input">FALSE</Parameter>
+        <Parameter Title="Negate Enable Execution">FALSE</Parameter>
+        <Parameter Title="Negate Reset">FALSE</Parameter>
+      </Parameters>
+      <Outputs>
+        <Output Title="New Result">0</Output>
+        <Output Title="Edge">False</Output>
+        <Output Title="Count">3</Output>
+        <Output Title="Last Event">2024-06-21 2:40:01.044 PM</Output>
+      </Outputs>
+    </Function>
+  </Functions>
+  <InputSources>
+    <InputSource Title="5.141.19.14.1.1: 851 [10.00ms]" Target="&lt;TargetInfo TargetId=&quot;0&quot;&gt;&#xD;&#xA;  &lt;AmsAddress&gt;&#xD;&#xA;    &lt;AmsNetId&gt;5.141.19.14.1.1&lt;/AmsNetId&gt;&#xD;&#xA;    &lt;Port&gt;851&lt;/Port&gt;&#xD;&#xA;  &lt;/AmsAddress&gt;&#xD;&#xA;  &lt;CycleTime Context=&quot;0&quot; Oversampling=&quot;1&quot;&gt;100000&lt;/CycleTime&gt;&#xD;&#xA;  &lt;CurrentContextMask&gt;0&lt;/CurrentContextMask&gt;&#xD;&#xA;&lt;/TargetInfo&gt;">
+      <Inputs>
+        <Input Title="TimeLine" VariableInfo="&lt;Symbol&gt;&lt;Name&gt;TimeLine&lt;/Name&gt;&lt;BitSize&gt;64&lt;/BitSize&gt;&lt;BaseType&gt;ULINT&lt;/BaseType&gt;&lt;ContextMask&gt;0&lt;/ContextMask&gt;&lt;/Symbol&gt;" />
+        <Input Title="GVL.rCurrent_Input1_EU" VariableInfo="&lt;Symbol TargetId=&quot;0&quot;&gt;&#xA;  &lt;Name&gt;GVL.rCurrent_Input1_EU&lt;/Name&gt;&#xA;  &lt;BaseType&gt;REAL&lt;/BaseType&gt;&#xA;  &lt;BitSize&gt;32&lt;/BitSize&gt;&#xA;  &lt;Comment&gt;Converted from DAQ resolution to engineering unit (mA)&lt;/Comment&gt;&#xA;  &lt;Properties&gt;&#xA;    &lt;Property&gt;&#xA;      &lt;Name&gt;TcAddressType&lt;/Name&gt;&#xA;      &lt;Value&gt;Input&lt;/Value&gt;&#xA;    &lt;/Property&gt;&#xA;    &lt;Property&gt;&#xA;      &lt;Name&gt;Area&lt;/Name&gt;&#xA;      &lt;Value&gt;Input&lt;/Value&gt;&#xA;    &lt;/Property&gt;&#xA;  &lt;/Properties&gt;&#xA;  &lt;ContextMask&gt;0&lt;/ContextMask&gt;&#xA;  &lt;IndexGroup&gt;61472&lt;/IndexGroup&gt;&#xA;  &lt;IndexOffset&gt;412964&lt;/IndexOffset&gt;&#xA;&lt;/Symbol&gt;" />
+      </Inputs>
+    </InputSource>
+  </InputSources>
+</AnalyticsProjectResult>

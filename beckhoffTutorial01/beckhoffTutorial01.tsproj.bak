@@ -27,6 +27,11 @@
 	</ImageDatas>
 	<Project ProjectGUID="{A7A03907-DA73-4F8A-9AC7-19656E106402}" TargetNetId="5.141.19.14.1.1" ShowHideConfigurations="#x6">
 		<System>
+			<Licenses>
+				<Target>
+					<ManualSelect>{BB40055B-8333-4223-90EA-7C4559DC7C69}</ManualSelect>
+				</Target>
+			</Licenses>
 			<Tasks>
 				<Task Id="3" Priority="20" CycleTime="100000" AmsPort="350" AdtTasks="true">
 					<Name>PlcTask</Name>
@@ -35,7 +40,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{FEA19E83-EE19-419F-8702-400A0EA0CC0E}" Name="beckhoffTutorial01" PrjFilePath="beckhoffTutorial01\beckhoffTutorial01.plcproj" TmcFilePath="beckhoffTutorial01\beckhoffTutorial01.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="beckhoffTutorial01\beckhoffTutorial01.tmc" TmcHash="{2009924A-E1DE-6C94-6956-AA4DA998E1B5}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="beckhoffTutorial01\beckhoffTutorial01.tmc" TmcHash="{EA6EEA07-DDB3-90BA-3782-2DF67A97ADB6}">
 					<Name>beckhoffTutorial01 Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -123,23 +128,6 @@
 							<Type>INT</Type>
 						</Var>
 						<Var>
-							<Name>GVL.nVoltage_Input1</Name>
-							<Comment><![CDATA[0-10V Analog Input for EL3104]]></Comment>
-							<Type>INT</Type>
-						</Var>
-						<Var>
-							<Name>GVL.nVoltage_Input2</Name>
-							<Type>INT</Type>
-						</Var>
-						<Var>
-							<Name>GVL.nVoltage_Input3</Name>
-							<Type>INT</Type>
-						</Var>
-						<Var>
-							<Name>GVL.nVoltage_Input4</Name>
-							<Type>INT</Type>
-						</Var>
-						<Var>
 							<Name>GVL.rCurrent_Input1_EU</Name>
 							<Comment><![CDATA[Converted from DAQ resolution to engineering unit (mA)]]></Comment>
 							<Type>REAL</Type>
@@ -155,6 +143,23 @@
 						<Var>
 							<Name>GVL.rCurrent_Input4_EU</Name>
 							<Type>REAL</Type>
+						</Var>
+						<Var>
+							<Name>GVL.nVoltage_Input1</Name>
+							<Comment><![CDATA[0-10V Analog Input for EL3104]]></Comment>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL.nVoltage_Input2</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL.nVoltage_Input3</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL.nVoltage_Input4</Name>
+							<Type>INT</Type>
 						</Var>
 						<Var>
 							<Name>GVL.rVoltage_Input1_EU</Name>
@@ -280,7 +285,7 @@
 				<Latitude></Latitude>
 			</AddiStreamDescription>
 			<SystemAlias></SystemAlias>
-			<DataLogger GUID="{32F12C27-3162-F55B-3741-554B280C1992}">
+			<DataLogger GUID="{B91F0052-7519-EA3B-0408-F4EF6DE277DA}">
 				<Name>Data Logger 1</Name>
 				<Name>Data Logger 1</Name>
 				<ParameterValues>
@@ -321,7 +326,7 @@
 						<String></String>
 					</Value>
 				</ParameterValues>
-				<Stream Caller="#x03040010" Adi="#x03040010" Id="#x02040001" CntAds="#x00000020" CntFile="#x00000010" CntRing="#x00000002" SamplingDivider="1" DeviceStream="true">
+				<Stream Caller="#x03040010" Adi="#x03040010" Id="#x02040001" CntAds="#x00000020" CntFile="#x00000010" CntRing="#x00000002" SamplingDivider="1">
 					<Name>Device 1 (EtherCAT).Image</Name>
 					<DisplayName>DeviceStream1</DisplayName>
 					<FileDir>%TC_BOOTPRJPATH%</FileDir>
