@@ -237,7 +237,7 @@
           <AmsNetId>5.141.19.14.1.1</AmsNetId>
           <Area>None</Area>
           <ArrayLength>0</ArrayLength>
-          <BaseSampleTime>100000</BaseSampleTime>
+          <BaseSampleTime>1000000</BaseSampleTime>
           <ChannelStyleInformation />
           <Comment></Comment>
           <CompressionMode>Uncompressed</CompressionMode>
@@ -320,7 +320,7 @@
             </NameRelationInfo>
           </SubMember>
           <SymbolName>Count @ Edge Counter 1Ch</SymbolName>
-          <TaskCycleTime>100000</TaskCycleTime>
+          <TaskCycleTime>1000000</TaskCycleTime>
           <TimeOffset>0</TimeOffset>
           <Title>AnalyticsOutAcquisition_782</Title>
           <UseLocalServer>true</UseLocalServer>
@@ -332,7 +332,7 @@
           <AmsNetId>5.141.19.14.1.1</AmsNetId>
           <Area>None</Area>
           <ArrayLength>0</ArrayLength>
-          <BaseSampleTime>100000</BaseSampleTime>
+          <BaseSampleTime>1000000</BaseSampleTime>
           <ChannelStyleInformation />
           <Comment></Comment>
           <CompressionMode>Uncompressed</CompressionMode>
@@ -415,7 +415,7 @@
             </NameRelationInfo>
           </SubMember>
           <SymbolName>Last Event @ Edge Counter 1Ch</SymbolName>
-          <TaskCycleTime>100000</TaskCycleTime>
+          <TaskCycleTime>1000000</TaskCycleTime>
           <TimeOffset>0</TimeOffset>
           <Title>AnalyticsOutAcquisition_789</Title>
           <UseLocalServer>true</UseLocalServer>
@@ -427,7 +427,7 @@
           <AmsNetId>5.141.19.14.1.1</AmsNetId>
           <Area>None</Area>
           <ArrayLength>0</ArrayLength>
-          <BaseSampleTime>100000</BaseSampleTime>
+          <BaseSampleTime>1000000</BaseSampleTime>
           <ChannelStyleInformation />
           <Comment></Comment>
           <CompressionMode>Uncompressed</CompressionMode>
@@ -510,7 +510,7 @@
             </NameRelationInfo>
           </SubMember>
           <SymbolName>Edge @ Edge Counter 1Ch</SymbolName>
-          <TaskCycleTime>100000</TaskCycleTime>
+          <TaskCycleTime>1000000</TaskCycleTime>
           <TimeOffset>0</TimeOffset>
           <Title>AnalyticsOutAcquisition_1136</Title>
           <UseLocalServer>true</UseLocalServer>
@@ -522,7 +522,7 @@
           <AmsNetId>5.141.19.14.1.1</AmsNetId>
           <Area>None</Area>
           <ArrayLength>0</ArrayLength>
-          <BaseSampleTime>100000</BaseSampleTime>
+          <BaseSampleTime>1000000</BaseSampleTime>
           <ChannelStyleInformation />
           <Comment></Comment>
           <CompressionMode>Uncompressed</CompressionMode>
@@ -541,7 +541,7 @@
           </DataAccess>
           <DataType>REAL64</DataType>
           <DisplayColor>Black</DisplayColor>
-          <Enabled>false</Enabled>
+          <Enabled>true</Enabled>
           <FileHandle>0</FileHandle>
           <ForceOversampling>false</ForceOversampling>
           <Guid>6d674d8e-1a03-463d-b8fe-73f1f48dde29</Guid>
@@ -605,7 +605,7 @@
             </NameRelationInfo>
           </SubMember>
           <SymbolName>Result @ Integrator 1Ch</SymbolName>
-          <TaskCycleTime>100000</TaskCycleTime>
+          <TaskCycleTime>1000000</TaskCycleTime>
           <TimeOffset>0</TimeOffset>
           <Title>AnalyticsOutAcquisition_984</Title>
           <UseLocalServer>true</UseLocalServer>
@@ -1572,7 +1572,7 @@
             <Channel AssemblyName="TwinCAT.Measurement.Scope.API.Model">
               <Comment />
               <DisplayColor>Black</DisplayColor>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
               <Guid>b0315421-2055-45d8-b04d-0515ae533e42</Guid>
               <Name>Network.Channel</Name>
               <SortPriority>12</SortPriority>
@@ -2324,7 +2324,7 @@
             <Channel AssemblyName="TwinCAT.Measurement.Scope.API.Model">
               <Comment />
               <DisplayColor>-23296</DisplayColor>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
               <Guid>521ebee9-d1ac-403c-8939-ad559e380710</Guid>
               <Name>Result @ Integrator 1Ch</Name>
               <SortPriority>10</SortPriority>
@@ -2598,6 +2598,15 @@
           <Title>ChartStyle_855</Title>
           <ToolTipEnabled>true</ToolTipEnabled>
         </ChartStyle>
+        <MarkerContainer AssemblyName="TwinCAT.Measurement.Scope.API.Model">
+          <Comment />
+          <DisplayColor>Black</DisplayColor>
+          <Guid>a8596d82-7f8b-46a9-8b43-2135444cf02a</Guid>
+          <Name>Marker Container (3)</Name>
+          <SortPriority>100</SortPriority>
+          <SubMember />
+          <Title>MarkerContainer_1079</Title>
+        </MarkerContainer>
       </SubMember>
       <TimeOffset>0</TimeOffset>
       <TimeRefreshMode>Explicit</TimeRefreshMode>

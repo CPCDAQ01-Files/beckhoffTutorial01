@@ -108,7 +108,7 @@
     </Node>
     <Node>
       <Title>Referenced Scope Project_1</Title>
-      <Expanded>True</Expanded>
+      <Expanded>False</Expanded>
       <FileName>C:\Users\labib\OneDrive\Documents\TcXaeShell\beckhoffTutorial01\TwinCAT Measurement Project1\Referenced Scope Project_1.tcscopex</FileName>
       <Children>
         <Node>
@@ -144,12 +144,12 @@
         </Node>
         <Node>
           <Title>Network</Title>
-          <Expanded>True</Expanded>
+          <Expanded>False</Expanded>
           <FileName></FileName>
           <Children>
             <Node>
               <Title>REAL32</Title>
-              <Expanded>True</Expanded>
+              <Expanded>False</Expanded>
               <FileName></FileName>
               <Children>
                 <Node>
@@ -170,7 +170,7 @@
         </Node>
         <Node>
           <Title>YT Chart</Title>
-          <Expanded>True</Expanded>
+          <Expanded>False</Expanded>
           <FileName></FileName>
           <Children>
             <Node>
