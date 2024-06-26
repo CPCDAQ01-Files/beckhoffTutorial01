@@ -8,6 +8,4 @@ This follow the "Setting up the CPCDAQ-01" guide. Feel free to clone this reposi
 
 ### And click on this file in the Solution Explorer to open the Solution/Project:
 ![image](https://github.com/camelNotationsdjkh/beckhoffTutorial01/assets/55813270/3a58e132-aaa3-4ddd-b418-862acb880e31)
-=======
-# beckhoffTutorial01
-CPCDAQ 4-20 device
+
