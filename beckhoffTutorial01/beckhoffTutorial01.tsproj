@@ -35,7 +35,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{FEA19E83-EE19-419F-8702-400A0EA0CC0E}" Name="beckhoffTutorial01" PrjFilePath="beckhoffTutorial01\beckhoffTutorial01.plcproj" TmcFilePath="beckhoffTutorial01\beckhoffTutorial01.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="beckhoffTutorial01\beckhoffTutorial01.tmc" TmcHash="{0116BD43-3F7B-EC07-4092-B32EBFCBAE3E}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="beckhoffTutorial01\beckhoffTutorial01.tmc" TmcHash="{EA6EEA07-DDB3-90BA-3782-2DF67A97ADB6}">
 					<Name>beckhoffTutorial01 Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">

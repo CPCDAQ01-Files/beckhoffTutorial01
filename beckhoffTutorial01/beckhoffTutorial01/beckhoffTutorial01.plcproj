@@ -31,7 +31,13 @@
     <Compile Include="POUs\f_mmToInch.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\InstrumentReading_420mA.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\MAIN.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\MAIN_FBD.TcPOU">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Visualization Manager.TcVMO">
