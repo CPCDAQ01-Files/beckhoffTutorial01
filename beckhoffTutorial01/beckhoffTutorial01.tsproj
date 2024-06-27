@@ -35,7 +35,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{FEA19E83-EE19-419F-8702-400A0EA0CC0E}" Name="beckhoffTutorial01" PrjFilePath="beckhoffTutorial01\beckhoffTutorial01.plcproj" TmcFilePath="beckhoffTutorial01\beckhoffTutorial01.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="beckhoffTutorial01\beckhoffTutorial01.tmc" TmcHash="{EA6EEA07-DDB3-90BA-3782-2DF67A97ADB6}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="beckhoffTutorial01\beckhoffTutorial01.tmc" TmcHash="{66F88E9D-F74F-0246-D12A-AC806369FCFD}">
 					<Name>beckhoffTutorial01 Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -280,7 +280,7 @@
 				<Latitude></Latitude>
 			</AddiStreamDescription>
 			<SystemAlias></SystemAlias>
-			<DataLogger GUID="{32F12C27-3162-F55B-3741-554B280C1992}">
+			<DataLogger GUID="{B91F0052-7519-EA3B-0408-F4EF6DE277DA}">
 				<Name>Data Logger 1</Name>
 				<Name>Data Logger 1</Name>
 				<ParameterValues>
